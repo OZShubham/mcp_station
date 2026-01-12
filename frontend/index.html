@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCP Station</title>
+ 
+  <style>
+    /* Custom scrollbar styles */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    /* Light mode scrollbar */
+    ::-webkit-scrollbar-thumb {
+      background: #d4d4d8; /* zinc-300 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a1a1aa; /* zinc-400 */
+    }
+    /* Dark mode scrollbar */
+    .dark ::-webkit-scrollbar-thumb {
+      background: #3f3f46; /* zinc-700 */
+    }
+    .dark ::-webkit-scrollbar-thumb:hover {
+      background: #52525b; /* zinc-600 */
+    }
+   
+    /* Animation for new messages */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeInUp {
+      animation: fadeInUp 0.5s ease-out forwards;
+    }
+ 
+    /* Classy new loader animation */
+    @keyframes pulsate {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4); }
+      50% { transform: scale(1.05); box-shadow: 0 0 10px 5px rgba(99, 102, 241, 0); }
+    }
+    .animate-pulsate {
+      animation: pulsate 2s ease-in-out infinite;
+    }
+ 
+    /* Animation for placeholder text */
+    @keyframes text-pulse {
+      50% { opacity: .5; }
+    }
+    .animate-text-pulse {
+      animation: text-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 antialiased">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

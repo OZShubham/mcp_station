@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+google-genai
+python-dotenv
+sse-starlette
+google-auth
+mcp
+mcp[cli]
+groq

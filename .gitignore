@@ -1,0 +1,9 @@
+.env
+logs
+chat.db
+chat.db-shm
+chat.db-wal
+secrets
+api_key
+__pycache__
+.venv
