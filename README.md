@@ -1,7 +1,7 @@
 # 🚀 MCP Station
 
 <div align="center">
-  <img src="assets/thumbnail.png" alt="MCP Station Banner" width="800"/>
+  <img src="frontend/src/assets/thumbnail.png" alt="MCP Station Banner" width="800"/>
   
   <p align="center">
     <strong>A production-ready MCP client with multi-provider LLM support</strong>
