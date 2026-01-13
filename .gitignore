@@ -7,3 +7,5 @@ secrets
 api_key
 __pycache__
 .venv
+content_print.py
+project_files_summary.txt
