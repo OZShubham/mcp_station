@@ -11,9 +11,7 @@
     <a href="https://youtu.be/52KGw4Ka8mA?si=QSGe8MBuup20MTlv">
       <img src="https://img.shields.io/badge/▶️_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo"/>
     </a>
-    <a href="https://github.com/OZShubham/mcp_station.git">
-      <img src="https://img.shields.io/github/stars/yourusername/mcp-station?style=for-the-badge" alt="Stars"/>
-    </a>
+  
   </p>
 </div>
 
@@ -616,10 +614,8 @@ npm run dev
 **Made with ❤️ by developers, for developers**
 
 [![Watch Demo](https://img.shields.io/badge/▶️_Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/52KGw4Ka8mA?si=QSGe8MBuup20MTlv)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/mcp-station?style=for-the-badge)](https://github.com/OZShubham/mcp_station.git)
-[![Fork on GitHub](https://img.shields.io/github/forks/yourusername/mcp-station?style=for-the-badge)](https://github.com/OZShubham/mcp_station.git/fork)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-**[⭐ Star on GitHub](https://github.com/OZShubham/mcp_station.git)** • **[📺 Watch Tutorial](https://youtu.be/52KGw4Ka8mA?si=QSGe8MBuup20MTlv)** • **[💬 Join Discussion](https://github.com/OZShubham/mcp_station.git/discussions)**
+
+**[⭐ Star on GitHub](https://github.com/OZShubham/mcp_station.git)** • **[📺 Watch Tutorial](https://youtu.be/52KGw4Ka8mA?si=QSGe8MBuup20MTlv)** • 
 
 </div>
